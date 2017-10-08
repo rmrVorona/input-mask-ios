@@ -10,4 +10,5 @@ Pod::Spec.new do |spec|
   spec.platform         = :ios, "8.0"
   spec.requires_arc     = true
   spec.source_files     = "Source/InputMask/InputMask/Classes/**/*"
+  spec.static_framework = true
 end
